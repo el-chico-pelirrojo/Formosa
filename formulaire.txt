@@ -1,0 +1,88 @@
+<div id="hello" class="container-fluid">
+
+               <section id="margs"></section>
+               <div class="row">
+                   <div class="col-8 offset-md-2">
+                       <div class="row">
+                           <div class="col-6">
+                               <div class="d-flex flex-column">
+                                   <h1>Say <strong>Hello</strong></h1>
+                                   <p>Don’t be shy, drop us an email and say hello! We are a really nice
+                                       bunch of people :)</p>
+                                   <label for="exampleFormControlTextarea1"></label>
+                               </div>
+                               <section class="row">
+                                   <div class="col-md-1">
+                                       <img src=" img/Mobile-Icon.png" alt="">
+                                   </div>
+                                   <div class="col-md-5">
+                                       <p id="qsdfs">(416) 555-0000</p>
+</div>
+                                   <div class="col-md-1">
+                                       <img src=" img/Mail-Icon.png" alt="">
+                                   </div>
+                                   <div class="col-md-5">
+                                       <p id="qsdfs">hello@escape.com</p>
+
+                               </section>
+                               <section class="row">
+                                   <div class="col-md-1">
+                                       <img src=" img/Twitter-Icon.png" alt="">
+                                   </div>
+                                   <div class="col-md-5">
+                                       <p id="qsdfs">@escape</p>
+
+                                   </div>
+                                   <label for="exampleFormControlTextarea1"></label>
+                                   <div class="col-md-1">
+                                       <img src=" img/Facebook-Icon.png" alt="">
+                                   </div>
+                                   <label for="exampleFormControlTextarea1"></label>
+                                   <div class="col-md-5">
+                                       <p id="qsdfs">facebook.com/escape</p>
+
+                                   </div>
+                                   <label for="exampleFormControlTextarea1"></label>
+                               </section>
+                               <section class="row">
+                                   <div class="col-md-1">
+                                       <img src=" img/Google+-Icon.png" alt="">
+                                   </div>
+                                   <div class="col-md-5">
+                                       <p id="qsdfs">plus.com/escape></p>
+
+                                   </div>
+                                   <label for="exampleFormControlTextarea1"></label>
+                                   <div class="col-md-1">
+                                       <img src=" img/Pinterest-Icon.png" alt="">
+                                   </div>
+                                   <label for="exampleFormControlTextarea1"></label>
+                                   <div class="col-md-5">
+                                       <p id="qsdfs">pinterest.com/escape</p>
+
+                                   </div>
+
+                               </section>
+                           </div>
+                           <div class="col-6">
+                               <div class="form-group">
+                                   <input type="email" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp" placeholder="Your Name *">
+                                   <label for="exampleFormControlTextarea1"></label>
+                                   <input type="email" class="form-control" id="exampleInputEmail1"
+                                       aria-describedby="emailHelp" placeholder="Your E-mail *">
+                                   <label for="exampleFormControlTextarea1"></label>
+                                   <textarea class="form-control" id="exampleFormControlTextarea1"
+                                       placeholder="Your Message *" rows="5"></textarea>
+</div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <!-- FOOTER -->
+               <p id="margsss" class="d-flex justify-content-center"> © 2014 Escape by FreebiesXpress • Made In Toronto
+               </p>
+
+
+
+           </div>

@@ -1,0 +1,455 @@
+@font-face {
+    font-family: "Brandon Grotesque";
+    src: url("../font/brandon-grotesque-light.otf");
+}
+
+@font-face {
+    font-family: "Brandon Grotesque Black";
+    src: url("../font/brandon-grotesque-medium.otf");
+}
+
+.nos {
+    font-family: "Brandon Grotesque";
+}
+
+#navbar {
+    margin-top: 10px;
+    list-style: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Brandon Grotesque";
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    width: 79px;
+    height: 14px;
+    color: #000000;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 41px;
+}
+
+a {
+    font-style: inherit;
+}
+
+
+
+#banniere {
+    background-image: url(../img/banniere.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    z-index: 7;
+}
+
+#couleur {
+    height: 500px;
+    width: 100%;
+    background-color: #000000;
+    opacity: 0.35;
+    position: absolute;
+    z-index: 8;
+}
+
+#overlay2 {
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    position: absolute;
+}
+
+.fps {
+
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 32px;
+    font-weight: 300;
+    letter-spacing: -0.8px;
+}
+
+#overlay2 .row {
+
+    text-align: center;
+
+}
+
+.sommet {
+    /* Style for "EN ROUTE P" */
+
+    color: #ffffff;
+    font-family: "Brandon Grotesque Black";
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "E, N ROUTE" */
+    letter-spacing: -1.65px;
+
+}
+
+#colin {
+    margin-top: 65px;
+}
+
+#bouton {
+    -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 34px;
+    text-decoration: none;
+    /*text-shadow: 1px 0px 0px #ffffff;*/
+    text-align: center;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+#couleurs {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2rem;
+}
+
+li:hover {
+    color: #3d0505;
+}
+
+.paragrapheF {
+    /* Style for "Background" */
+    font-family: "Brandon Grotesque";
+    font-size: 2rem;
+    color: #777777;
+}
+
+.nosformation {
+    font-size: 4rem;
+    font-family: "Brandon Grotesque Black";
+}
+
+.titre2 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.daily {
+    /* Style for "53953711_w" */
+    width: 425px;
+    height: 283px;
+}
+
+.logo {
+    /* Style for "logo3" */
+    margin-top: 20px;
+    width: 172px;
+    height: 57px;
+}
+
+.catalogue {
+    -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+    box-shadow: inset 0px 0px 0px 0px #ffffff;
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 34px;
+    text-decoration: none;
+    /*text-shadow: 1px 0px 0px #ffffff;*/
+    text-align: center;
+    color: #ffffff;
+}
+
+.button:hover {
+    background-color: transparent;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.jackouille {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.jackouille2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fafafa;
+}
+
+#coequip {
+    /* Style for "Background" */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+    margin-top: 30px;
+
+}
+
+.logo44 {
+    /* Style for "Tuts+" */
+    width: 131px;
+    height: 41px;
+
+
+}
+
+.partenaire {
+    display: block;
+}
+
+#rowow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fafafa;
+
+    height: 100px;
+}
+
+/*.logo45 {}*/
+
+
+
+#qsdf {
+    color: #222222;
+    font-family: "Brandon Grotesque";
+    font-size: 22px;
+    font-weight: 500;
+    /* Text style for "B, randing" */
+    letter-spacing: -0.55px;
+}
+
+#qsdfs {
+    color: white;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 500;
+    /* Text style for "B, randing" */
+    letter-spacing: -0.55px;
+}
+
+#hello {
+    color: white;
+    height: 1500px;
+    background-color: #c14333;
+}
+
+.contactez {
+    /* Style for "Contactez-" */
+    width: 368px;
+    height: 44px;
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 60px;
+    font-weight: 700;
+    /* Text style for "C, ontacte" */
+    font-family: "Brandon Grotesque Bold";
+    font-weight: 700;
+    letter-spacing: -1.5px;
+    /* Text style for "Nous" */
+    font-family: "Brandon Grotesque Light";
+    font-weight: 300;
+    letter-spacing: -1.5px;
+    font-size: 5rem;
+    margin-top: 100px;
+}
+
+.liste1 {
+    width: 133px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.lien {
+    width: 133px;
+    height: 14px;
+    color: #ffffff;
+    font-family: "Brandon Grotesque";
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.lien:hover {
+    color: black;
+    transition-duration: 0.6s;
+    text-decoration: none;
+}
+
+li {
+    margin-top: 20px;
+}
+
+.contactez {
+    margin-bottom: 30px;
+}
+
+#minilink {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#minilink:hover {
+    color: black;
+    transition-duration: 0.6s;
+    text-decoration: none;
+}
+
+.envie {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.input1 {
+    color: #000000;
+    /* Style for "Your Name" */
+    width: 456px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    font-family: "Brandon Grotesque";
+    margin-top: 110px;
+    font-size: 25px;
+}
+
+.input2 {
+    color: #000000;
+    /* Style for "Your Name" */
+    width: 456px;
+    height: 50px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    font-family: "Brandon Grotesque";
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#textarea {
+    /* Style for "Your Messa" */
+    width: 456px;
+    height: 210px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: "Brandon Grotesque";
+    font-size: 25px;
+}
+
+placeholder {
+    color: #22222296;
+    font-weight: bold;
+}
+
+.bouton {
+    color: #292929c0;
+    font-family: "Brandon Grotesque";
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-left: 180px;
+}
+
+.gray {
+    background-color: #fafafa;
+}
+
+#logogo {
+    max-width: 100%;
+    height: auto;
+    flex: wrap;
+}
+
+@media (max-width: 620px) {
+    body {
+        display: block;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 620px) {
+    #navbar {
+        margin-bottom: 25px;
+        margin-right: 20px;
+    }
+
+    #navbar .lol {
+        margin-right: 18px;
+        margin-bottom: 20px;
+
+    }
+
+}
+
+@media (max-width: 650px) {
+    #rowow {
+        display: inline-flex;
+        flex-direction: column;
+
+    }
+
+}
+
+@media (max-width: 991px) {
+    #coequip {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+.lol {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#casseTete {
+    height: 180px;
+    background-color: #fafafa;
+}
